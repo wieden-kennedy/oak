@@ -6,6 +6,24 @@
 // Copyright
 // ---------
 // 2014 W+K 
+
+/**
+ * Oak core functions.
+ * The core package contains functionality for strapping and extending objects using oak. It also supplies core
+ * functionality necessary for other oak packages.
+ * It also contains methods for you to extend the oak.strap and oak.core namespaces.
+ * @class oak.core 
+ * @example
+ * var set = oak.strap([
+ *  100,
+ *  200,
+ *  300
+ * ]);
+ * set.each(function (num, index) {
+ *   console.log(num, index);
+ * });
+ * 
+ */
 window.oak = this.oak = (function () {
 
   "use strict";

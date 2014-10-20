@@ -52,7 +52,6 @@ describe("oak", function () {
       expect(oak.defined(defined1, defined2, defined3)).toBe(true);
     });
 
-
   });
   describe('method: exists', function () {
     it('returns true for a defined argument', function () {
@@ -126,6 +125,7 @@ describe("oak", function () {
       expect(oak.isArray(d)).toBe(false);
       expect(oak.isArray(e)).toBe(false);
     });
+
   });
 
   describe('method: isStrap', function () {
@@ -199,9 +199,6 @@ describe("oak", function () {
     expect(myStrap).toBeDefined();
     expect(myStrap[0]).toBeDefined();
     expect(myStrap.length).toBe(2);
-    /*
-    expect(myStrap.find).toBeDefined();
-    */
   });
 
   it('should allow for strapping through HTMLElement prototype', function () {
@@ -212,7 +209,6 @@ describe("oak", function () {
     var myStrap = myDiv.strap();
     expect(myStrap).toBeDefined();
     expect(myStrap[0]).toBeDefined();
-    //expect(myStrap.find).toBeDefined();
   });
 
 });

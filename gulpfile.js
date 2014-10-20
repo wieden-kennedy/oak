@@ -26,4 +26,4 @@ gulp.task('watch', function () {
   return watcher;
 });
 
-gulp.task('default', ['test', 'build']);
+gulp.task('default', ['test', 'build', 'docs']);
