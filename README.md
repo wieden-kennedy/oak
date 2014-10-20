@@ -18,6 +18,7 @@ Oak is broken up into functional packages that can be installed with bower. Pack
 
 Documentation
 -------------
+http://maxfolley.gitbooks.io/oak-docs/content/
 
 
 Conributing
