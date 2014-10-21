@@ -29,8 +29,6 @@ window.oak = this.oak = (function () {
   "use strict";
   var VERSION = "1.0.0", 
     modules = {},
-    // Store moduel dependencies
-    needs = {},
     // o is used to set oak properties 
     o = {
       // Oak vars intended to be used privately, prepend with an underscore
