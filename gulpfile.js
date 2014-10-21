@@ -4,11 +4,11 @@ var
   jasmine = require('gulp-jasmine-phantom'),
   uglify = require('gulp-uglify');
 
-gulp.task('build', function () {
+gulp.task('dist', function () {
   var stream = gulp.src('src/*.js')
     .pipe(uglify())
     .pipe(concat('oak-core.min.js'))
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('dist/'));
   return stream;
 });
 
@@ -26,4 +26,4 @@ gulp.task('watch', function () {
   return watcher;
 });
 
-gulp.task('default', ['test', 'build', 'docs']);
+gulp.task('default', ['test', 'dist', 'docs']);

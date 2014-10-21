@@ -1,12 +1,12 @@
 {
   "name": "oak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/wieden-kennedy/oak",
   "authors": [
     "Maxwell Folley"
   ],
   "description": "General purpose framework for javascript",
-  "main": "build/oak-core.min.js",
+  "main": "dist/oak-core.min.js",
   "keywords": [
     "oak",
     "framework",
@@ -14,9 +14,11 @@
     "collection"
   ],
   "license": "BSD",
-  "private": true,
   "ignore": [
     "**/.*",
+    "gulpfile.js",
+    "package.json",
+    "README.md",
     "node_modules",
     "bower_components",
     "src",

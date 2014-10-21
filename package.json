@@ -4,7 +4,7 @@
   "description": "Core lib functionality for the javascript Oak framework",
   "files": "lib/core.js",
   "contributors": [
-    "Maxwell Folley <maxwell@weareflavor.com> (http://www.wk.com)"
+    "Maxwell Folley <maxwell.folley@gmail.com> (http://www.wk.com)"
   ],
   "license": "BSD",
   "dependencies": {
