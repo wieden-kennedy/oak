@@ -1,6 +1,6 @@
 Oak
 ===
-Oak is a general purpose javascript framework that was built with a single concept in mind. In order to use javascript you must know how to javascript.
+Oak is a javascript development suite that was built with a single concept in mind. In order to use javascript you must know how to javascript.
 
 Oak's intentions are to give you low level access to your source while giving you conveniences typical of high level frameworks.
 
