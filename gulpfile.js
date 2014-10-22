@@ -7,13 +7,17 @@ var
 gulp.task('dist', function () {
   var stream = gulp.src('src/*.js')
     .pipe(uglify())
-    .pipe(concat('oak-core.min.js'))
+    .pipe(concat('oak.min.js'))
+    .pipe(gulp.dest('dist/'));
+
+  var stream = gulp.src('src/*.js')
+    .pipe(concat('oak.js'))
     .pipe(gulp.dest('dist/'));
   return stream;
 });
 
-gulp.task('test', function () {
-  return gulp.src('{src,spec}/core.js')
+gulp.task('spec', function () {
+  return gulp.src('{src,spec}/oak.js')
     .pipe(jasmine({
       integration: true,
       verbose: true

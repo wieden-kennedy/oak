@@ -1,12 +1,12 @@
 {
   "name": "oak",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "homepage": "https://github.com/wieden-kennedy/oak",
   "authors": [
     "Maxwell Folley"
   ],
   "description": "General purpose framework for javascript",
-  "main": "dist/oak-core.min.js",
+  "main": "dist/oak.min.js",
   "keywords": [
     "oak",
     "framework",
@@ -22,6 +22,7 @@
     "node_modules",
     "bower_components",
     "src",
-    "spec"
+    "spec",
+    "bower.json"
   ]
 }
