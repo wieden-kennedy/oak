@@ -5,9 +5,7 @@ var
   uglify = require('gulp-uglify');
 
 var srcFiles = [
-  'src/polyfills.js',
-  'src/oak.js',
-  'src/raf.js'
+  'src/oak.js'
 ];
 var specFiles= [
   'spec/oak.js'
@@ -31,7 +29,6 @@ gulp.task('spec', function () {
       integration: true,
       verbose: true
     }));
-
 });
 
 gulp.task('watch', function () {
